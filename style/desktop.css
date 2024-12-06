@@ -14,7 +14,7 @@ body{
 .darkgrey{
  background-color:var(--colorgrey-800);
  height:100%;
- width: 60%;
+ width: 46%;
  border-radius:20px;
  box-sizing: border-box;
 }
@@ -55,7 +55,7 @@ body{
   padding:20px 20px 20px 20px;
   border-radius: 20px;
   background-color:var(--colorgrey-700);
-  width:40%;
+  width:75%;
 }
 .main{
   padding: 20px 20px 20px 20px;
@@ -63,4 +63,5 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:20px;
 }
