@@ -1,0 +1,21 @@
+:root{
+--colorgreen: hsl(75, 94%, 57%);
+--colorwhite: hsl(0, 0%, 100%);
+--colorgrey-700: hsl(0, 0%, 20%);
+--colorgrey-800: hsl(0, 0%, 12%);
+--colorgrey-900: hsl(0, 0%, 8%);
+
+}
+
+body{
+  background-color: black;
+}
+
+.darkgrey{
+ background-color:var(--colorgrey-800);
+ height:100%;
+ max-width: 100%;
+ border-radius:20px;
+ box-sizing: border-box;
+
+}
