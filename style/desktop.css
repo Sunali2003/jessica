@@ -14,7 +14,7 @@ body{
 .darkgrey{
  background-color:var(--colorgrey-800);
  height:100%;
- width: 100%;
+ width: 60%;
  border-radius:20px;
  box-sizing: border-box;
 }
@@ -46,4 +46,21 @@ body{
   color: white;
   display: flex;
   justify-content: center;
+}
+.main .github{
+  display:flex;
+  justify-content:center;
+  color:white;
+  font-size:1rem;
+  padding:20px 20px 20px 20px;
+  border-radius: 20px;
+  background-color:var(--colorgrey-700);
+  width:40%;
+}
+.main{
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
